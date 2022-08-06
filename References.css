@@ -1,0 +1,1202 @@
+                        /* ****************Loading**********************/
+
+                    
+                        .lds-facebook {
+                            display: inline-block;
+                            position: relative;
+                            width: 80px;
+                            height: 80px;
+                          }
+                          .lds-facebook div {
+                            display: inline-block;
+                            position: absolute;
+                            left: 8px;
+                            width: 16px;
+                            background: #1A4990;
+                            animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+                          }
+                          .lds-facebook div:nth-child(1) {
+                            left: 8px;
+                            animation-delay: -0.24s;
+                          }
+                          .lds-facebook div:nth-child(2) {
+                            left: 32px;
+                            animation-delay: -0.12s;
+                          }
+                          .lds-facebook div:nth-child(3) {
+                            left: 56px;
+                            animation-delay: 0;
+                          }
+                          @keyframes lds-facebook {
+                            0% {
+                              top: 8px;
+                              height: 64px;
+                            }
+                            50%, 100% {
+                              top: 24px;
+                              height: 32px;
+                            }
+                          }
+                         /* ****************Loading**********************/
+               
+               
+               body{
+                    border: 0;
+                    margin: 0;
+                    /* overflow-x: hidden; */
+                }
+
+                    a{text-decoration: none;}
+                    
+                    a:focus, a:hover {
+                        text-decoration: none;
+                    }
+                    
+                    
+                    body{margin: 0;}
+                    ul{list-style: none;}
+                    
+                    /* ****************header PC**********************/
+                    header{ 
+                        z-index: 50;
+                        height: 105px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        background-color: #ffffff;
+
+                    
+                    }
+                    .nav-W{
+
+                        height: 100%;
+                        background-color: #ffffff;
+                        width: 100%;
+                        z-index: -1;
+                        position: absolute;
+
+                    }
+                    
+                    .logo-DIV{
+                        
+                        position: absolute;
+                        right: 75%;
+                        width: 15%;
+                    }
+                    .meun-div-m{
+                        width: 40%;
+                        height: 40px;
+                    }
+
+                    .menuItem{
+                        width: 16%;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                    .menuItem-lang{
+                        width: 7%;
+                    }
+                    
+
+                    
+                    
+                    .menu { list-style: none;
+                            display: flex;
+                            ALIGN-ITEMS: flex-end;
+                            padding: 0;
+                            margin: 0;
+                        }
+                
+                        .menuitme{padding: 10px 10px;}
+
+                        .logo-IMG{
+                            position: relative;
+                            width: 100%;
+
+                        }
+
+                        .not-active-DIV{
+
+                            background-color: rgb(255, 255, 255);
+                            height: 40px;
+                            width: 100%;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .active-DIV{
+
+                            background-color: rgb(255, 255, 255);
+                            height: 40px;
+                            width: 100%;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        .HOVER{
+                            background-color: #1A4990;
+                            height: 8px;
+                            width: 125px;
+                            position: absolute;
+                            top: 105px;
+
+
+                        }
+                        .lang-DIV{
+                            background-color:#ffffff;
+                            height: 40px;
+                            width: 100%;
+                            border-radius: 3px;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        
+                        
+                        }
+
+                            .HOVERD-not-active-lang{
+                                background-color: #1A4990;
+                                height: 8px;
+                                width: 3%;
+                                position: absolute;
+                                top: 97px;
+                                display: none;
+                                z-index: 5;
+                            
+                            
+                            }
+
+
+                        .HOVERD-not-active{
+                            background-color: #1A4990;
+                            height: 8px;
+                            width: 6%;
+                            position: absolute;
+                            top: 97px;
+                            display: none;}
+                        
+                        .not-active-text{
+
+                            color: #4B4B4B;
+                            font-size: 1.3vw;
+                            font-family: 'Bebas Neue', cursive;
+                            margin: 0;
+
+                            position: relative;}
+
+
+                        .active-text{   
+                    
+                            color: #4B4B4B;
+                            font-size: 1.3vw;
+                            font-family: 'Bebas Neue', cursive;
+                            margin: 0;
+                            position: relative;
+                            white-space: nowrap;
+
+                        }
+                            .lang-ul{    
+                                
+                                position: absolute;
+                                top: 105px;
+                                padding: 0;
+                                width: 3%;
+                                height: 2%;
+                                z-index: 5;
+
+
+                            
+                            }
+
+
+                            .S-lang-div{
+                                display: none;
+                                background-color: #ffffff;
+                                height: 100%;
+                                width: 100%;
+                                z-index: 50;
+                                border-style: solid;
+                                border-color: #4b4b4b;
+                                border-width: 1px;
+                            }
+                            .HOVERD-H{
+                                height: 100%;
+                                width: 3%;
+                                background-color: #ffffff;
+                                position: absolute;
+                                display: none;
+                                z-index: 1;
+                                opacity: 0%;
+
+
+
+
+                            }
+
+
+                            .lang-t{
+                                color: #4b4b4b;
+                                font-size: 1.3vw;
+                                font-family: 'Bebas Neue', cursive;
+                                margin: 0;
+                                top: 12%;
+                                position: relative;
+                            
+                            }
+
+                         .PRODUCTS-M-TEXT{
+                            font-size: 1.3vw;
+                            font-family: 'Bebas Neue', cursive;
+                            color: #4B4B4B;
+                            margin: 20px;
+                        }
+                        .PRODUCTS-S-TEXT{
+                            font-size: 1vw;
+                            font-family: 'Bebas Neue', cursive;
+                            color: #4B4B4B;
+                            margin: 15px;
+            
+            
+            
+                        }
+                        .heavy-DIV{
+                            height: 100%;
+                            width: 33%;
+                            background-color: #ffffff;
+                            align-items: center;
+                            justify-content: center;}
+                        
+                        
+                        
+                        .Prefabrication-DIV{
+                                height: 100%;
+                                width: 34%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: center;
+                                border-style: solid;
+                                border-color: #696969;
+                                border-bottom: none;
+                                border-width: 1px;
+                                border-top: none;
+                            
+                            }
+                            
+                            
+                            
+                           
+                        
+                        
+                        .Light-DIV{
+                            height: 100%;
+                            width: 33%;
+                            background-color: #ffffff;
+                            align-items: center;
+                            justify-content: center;}        
+            
+            
+            
+            
+            
+                        .PRODUCTS-M-ul{padding: unset;}
+
+                        .PRODUCTS-inventory {
+                            height: 280px;
+                            width: 40%;
+                            background-color: #ffffff;
+                            z-index: -100;
+                            position: absolute;
+                            top: -250px; 
+                            transition: top ease 0.5s;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+
+                        
+                        .small-inventory{
+                            height: 48px;
+                            width: 125px;
+                            background-color: #ffffff;
+                            opacity: 0%;
+                            position: absolute;
+                            display: none;
+                            top: 60px;
+                        
+                        } 
+
+                        .meun-div-MM{
+                            HEIGHT: 100%;
+                            WIDTH: 100%;
+                            DISPLAY: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                       
+                        /* ****************HOVER**********************/
+                        .lang-DIV:hover .S-lang-div{display: block;}
+                        .lang-DIV:hover .HOVERD-not-active-lang{display: block;}
+                        .lang-DIV:hover .HOVERD-H{display: block;}
+                        
+                        
+                        .S-lang-div:hover{background-color: #1A4990;}
+                        .S-lang-div:hover .lang-t{color: #ffffff;}
+                        
+
+                        .not-active-DIV:hover .HOVERD-not-active{display: block;}
+            
+                        .not-active-DIV:hover .active-DIV{background-color: #ffffff; }
+                        
+                        
+                        
+                        .PRODUCTS-S-TEXT:hover  {color: black;transform: scale(1.2);}
+                        .PRODUCTS-M-TEXT:hover  {color: black;transform: scale(1.2);}
+                         .Inventory-M:hover .PRODUCTS-inventory{top: 104px;}  
+                        .Inventory-M:hover .small-inventory{display: block;}
+                        
+                        
+                        
+                        
+                        /* ****************header PHONE**********************/
+                        @media only screen and (max-width: 1000px) {
+                            
+                            
+                            header {
+                                background-color: #ffffff;
+                                height: 60px;
+                                POSITION: fixed;
+                                width: 100%;
+                                box-shadow: 0px 0px 20px #000000;
+                            }
+                            .nav-W{
+                                height: 100%;
+                                background-color: #ffffff;
+
+
+                            }
+                            .logo-DIV {
+                                position: relative;
+                                height: 100%;
+                                width: 100%;
+                                display: flex;
+                                text-align-last: center;
+                                align-items: center;
+                                right: 0;
+                                flex-direction: row;
+                                flex-wrap: nowrap;
+                                align-content: center;
+                                justify-content: center;
+                                z-index: 10;
+                            }
+                            .logo-IMG {
+                                position: relative;
+                                width: 35%;
+                            }
+                            
+                            
+                            
+                            
+                            
+
+                            .meun-div-MM{
+                                position: absolute;
+
+                            }
+                            
+                            .meun-div-HMM
+                            {
+                                width: 45px;
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                flex-wrap: nowrap;
+                                align-content: center;
+                                justify-content: center;
+                                align-items: stretch;
+                                position: relative;
+                                right: 40%;
+                                z-index: 11;
+                            }
+                            .meun-meun{
+                                
+                                
+                                position: relative;
+                                background-color: #1A4990;
+                                height: 8%;
+                                margin: 5px;
+                                border-radius: 10px;
+                            }
+
+                            .meun-div-m{
+                                position: absolute;
+                                /* display: none; */
+                                left: 0;
+                                top: -225px;
+                                width: 50%;
+                                transition: top ease 0.2s;
+                                height: 0;
+                                
+                            }
+                            .menu {
+                                list-style: none;
+                                display: flex;
+                                ALIGN-ITEMS: flex-end;
+                                padding: 0;
+                                margin: 0;
+                                flex-direction: column;
+                                align-content: center;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: relative;
+                                z-index: -5;
+                            }
+
+                            .menuItem {
+                                width: 100%;
+                                margin: 0;
+                            }
+                            .HOVERD-not-active {
+                                background-color: #1A4990;
+                                height: 3px;
+                                width: 50%;
+                                position: relative;
+                                top: 11px;
+                                display: none; 
+                                 
+                            }
+                            .not-active-DIV {
+                                background-color: #1A4990;
+                                height: 40px;
+                                width: 100%;
+                                text-align: center;
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: center;
+                                flex-direction: column;
+                                position: relative;
+                                border-radius: 0px;
+                            }
+                            
+                            .HOVERD-not-active-lang {
+                                background-color: #1A4990;
+                                height: 3px;
+                                width: 50%;
+                                position: relative;
+                                top: 11px;
+                            }
+                            .lang-DIV {
+                                background-color: #1A4990;
+                                height: 40px;
+                                width: 100%;
+                                border-radius: 0px;
+                                text-align: center;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                flex-direction: column;
+                                position: relative;
+                            }
+                            .HOVERD-H{display: none;}
+                            .active-text{
+                                font-size: 20px;
+                                position: relative;
+                                right: -15%;
+                                color: #ffffff;
+                                z-index: 5;
+
+                            }
+                            .not-active-text{
+                                font-size: 20px;
+                                position: relative;
+                                right: -15%;
+                                color: #ffffff;
+
+                            }
+                            .lang-li{
+                                width: 100%;
+                                height: 100%;
+                            }
+                            
+                            .lang-ul {
+                                position: absolute;
+                                top: 39px;
+                                padding: 0;
+                                width: 100%;
+                                height: 40px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                align-content: center;
+                                flex-direction: row;
+                                display: none;
+                            }
+                            .lang-t {
+                                font-size: 20px;
+
+                            }
+                            
+                            .PRODUCTS-inventory {
+                                height: 300%;
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                transition: top ease 0.5s;
+                                flex-direction: column;
+
+                            }
+                            
+                            
+                            .Inventory-M {transition: all 0.5s, z-index .2s 1s;
+                            
+                            
+                            }
+                            
+                            .PRODUCTS-M-ul {
+                                padding: unset;
+                                display: none;
+                            }
+                            
+                            .PRODUCTS-M-TEXT {
+                                font-size: 20px;
+                                font-family: 'Bebas Neue', cursive;
+                                color: #4B4B4B;
+                                position: relative;
+                                right: -52px;
+                                margin: 0;
+                            }
+                            .Light-DIV {
+                                height: 100%;
+                                width: 100%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: flex-start;
+                                flex-direction: row;
+                                display: flex;
+                            }
+                            .Prefabrication-DIV {
+                                height: 100%;
+                                width: 100%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: flex-start;
+                                flex-direction: row;
+                                display: flex;
+                                border-style: none;
+                            }
+                            .heavy-DIV {
+                                height: 100%;
+                                width: 100%;
+                                background-color: #ffffff;
+                                align-items: center;
+                                justify-content: flex-start;
+                                flex-direction: row;
+                                display: flex;
+                            }
+                            
+
+
+
+                      
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                             .Inventory-M:hover{z-index: 1;}
+                            
+                           /* .Inventory-M:hover .PRODUCTS-inventory{z-index: 1;}  */
+                            
+                            
+                            .Inventory-M:hover{margin-bottom: 119px;}
+                            
+                            
+                            
+                            .Inventory-M:hover .PRODUCTS-inventory {top: 39px;}
+                            
+                            
+                            .not-active-DIV:hover .HOVERD-not-active{display: none;}
+                            .lang-DIV:hover .HOVERD-not-active-lang{display: none;}
+                            .meun-div-MM:hover .meun-div-m{top: 60px;}
+                            .lang-DIV:hover .lang-ul {display: flex;}
+                            .not-active-DIV:hover .not-active-text{transform: scale(1.2);}
+                            .lang-DIV:hover .active-text{transform: scale(1.2);}
+                            .not-active-DIV:hover .active-text{transform: scale(1.2);}
+                            .Inventory-M:hover .small-inventory{display: none;}
+
+
+                            
+                            
+                            
+                            
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        }
+                        
+                        /* **************** background **********************/
+                        .background-section{ 
+                            width: 100%;
+                            height: 35vh;}
+                        
+                            .background-div-img {
+                                background-image: url(./images/P1.jpg);
+                                background-position-y: center;
+                                height: 100%;
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: center;
+                                align-content: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+                        
+                            .background-div-text-R {
+                                position: relative;
+                                width: 50%;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .background-div-text-L {
+                                position: relative;
+                                width: 50%;
+                                display: flex;
+                                justify-content: center;
+                            }
+                        
+                            .background-text {
+                                margin: 0;
+                                color: white;
+                                font-family: 'Bebas Neue', cursive;
+                                font-size: 40px;
+                            }
+                            /* **************** background phone **********************/
+
+                            @media only screen and (max-width: 1000px) {
+
+                                .background-div-text-L{
+                                    display: none;
+                                }
+
+                                .background-text {
+                                    font-size: 20px;
+                                }
+
+
+                            }
+                        /*****************PRODUCTS**********************/
+                        .PRODUCTS-section{
+                            margin-top: 30px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                       .PRODUCTS-DIV-M{
+                            width: 70%;
+                        }
+
+                        .PRODUCTS-DIV-text-M{
+
+                            width: 100%;
+                            margin-bottom: 30px;
+                        }
+                        .PRODUCTS-DIV-text{
+                            margin-bottom: 30px;
+                        }
+                        .PRODUCTS-DIV-text p{
+                            color: #333;
+                            font-size: 20px;
+                        }
+                        .line-PRODUCTS{
+                            width: 100%;
+                            background-color: #1A4990;
+                            height: 2px;
+                        }
+                        .PRODUCTS-DIV-M-info{
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                        }
+                        
+                        .PRODUCTS-img-div{
+                            height: 300px;
+                            width: 300px;
+                            overflow: hidden;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                        }
+                        .PRODUCTS-div{
+                            margin-bottom: 50px;
+                        }
+                        
+                        
+                        .PRODUCTS-text-div {
+                            height: 70px;
+                            width: 300px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            border-style: solid;
+                            border-width: 1px;
+                            border-color: #333;
+                        }
+                        
+                        .PRODUCTS-text-info-M{
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .PRODUCTS-text-info-M p{
+                            font-size: 24px;
+                            font-family: 'Bebas Neue', cursive;
+                            color: #333;
+                            margin: 0;
+                        }
+                        
+                        .PRODUCTS-text-info-S {
+                            width: fit-content;
+                            display: flex;
+                            justify-content: flex-end;
+                            flex-direction: column;
+                            align-self: flex-end;
+                            position: relative;
+                            top: 11px;
+                        }
+                        .PRODUCTS-text-info-S p{
+                            font-size: 20px;
+                            font-family: 'Bebas Neue', cursive;
+                            color: #1A4990;
+                            margin: 0;
+                            
+
+                        }
+                        .text-line-s {
+                            width: 100%;
+                            height: 5px;
+                            background-color: #1A4990;
+                            position: relative;
+                            top: -5px;
+                            opacity: 0;
+                            transition: all 0.2s;
+                        }
+
+                        .A-PRODUCTS-text{
+                            
+                            width: fit-content;
+                            align-self: flex-end;
+                           
+                        }
+                        .A-IMG{
+                            width: 100%;
+                            height: 100%;
+                            
+                        }
+                        .A-IMG img {
+                            transition: all 0.2s;
+                        }
+                        
+                        /*****************PRODUCTS hover**********************/
+                        
+                        .PRODUCTS-text-info-S:hover .text-line-s{
+                            opacity: 100%;
+                        }
+                        
+                        .A-IMG:hover img {
+                            transform: scale(1.2);
+                        }
+                        /*****************PRODUCTS hover**********************/
+                        
+                        @media only screen and (max-width: 1000px) {
+                            
+                            .PRODUCTS-DIV-text p {
+                                font-size: 15px;
+                            }
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        
+                        
+                        
+                        
+                       
+
+
+
+
+
+
+            /* ****************footer**********************/
+            footer{
+                width: 100%;
+                height: 420px;
+                background-color: #4B4B4B;
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .footer-L{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-R{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-R-M {
+                height: 70%;
+                width: 80%;
+                display: flex;
+                justify-content: space-evenly;
+                position: relative;
+                right: -84px;
+            }
+            .footer-L-M{
+                height: 70%;
+                width: 80%;
+                position: relative;
+                right: 50px;
+
+            }
+            .footer-R-L{
+                height: 100%;
+                width: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .footer-R-M-TEXT-DIV{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer-R-S-TEXT-DIV{
+                width: 100%;
+                height: 14%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .footer-R-M-TEXT{
+                margin: 0;
+                font-size: 25px;
+                font-family: 'Bebas Neue', cursive;
+                color: white;
+
+            }
+            .footer-R-S-TEXT{
+                margin: 0;
+                font-size:0.8vw;
+                color: white;
+            }
+            .footer-M-line{
+                height: 80%;
+                width: 2px;
+                background-color: white;
+                align-self: center;
+            }
+            .footer-Conact-DIV {
+                height: 80%;
+                width: 100%;
+                display: flex;
+            }
+            .footer-social-DIV{
+                height: 20%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+            }
+            .footer-social-TEXT-DIV {
+                width: 20%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .footer-social-IMG-DIV-M {
+                width: 80%;
+                display: flex;
+                height: 100%;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                align-content: center;
+            }
+
+            .footer-social-img-M{
+                height: 80%;
+
+            }
+            
+            
+            
+            .footer-social-IMG {
+                height: 40px;
+                background-color: rgb(255, 255, 255);
+                width: 40px;
+                margin-right: 20px;
+                display: flex;
+                justify-content: center;
+                border-radius: 150px;
+                overflow: hidden;
+                align-content: center;
+                align-items: center;
+            }
+            .footer-social-IMG a {
+                height: 40px;
+                background-color: rgb(255, 255, 255);
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                border-radius: 150px;
+                overflow: hidden;
+                align-content: center;
+                align-items: center;
+            }
+            
+                .footer-social-TEXT{
+                margin: 0;
+                font-size: 25px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+            }
+            .footer-Conact-TEXT-DIV {
+                height: 100%;
+                width: 20%;
+                display: flex;
+                justify-content: space-evenly;
+                position: relative;
+                top: 20px;
+            }
+            .footer-Conact-img-text-DIV {
+                height: 100%;
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            .footer-Conact-M-TEXT{
+                margin: 0;
+                font-size: 25px;
+                color: white;
+                font-family: 'Bebas Neue', cursive;
+            }
+            .footer-Conact-TEXT-DIV-S {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .footer-Conact-TEXT-DIV-S-S {
+                height: 100%;
+                width: 40%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                align-content: space-around;
+            }
+            .footer-Conact-img-S-DIV {
+                height: 30px;
+                width: 30px;
+                border-radius: 150%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                background-color: white;
+                align-items: center;
+            }
+            .footer-Conact-img-SS{
+                height: 80%;
+            }
+            .footer-Conact-TEXT-SS {
+                color: white;
+                font-size: 0.91vw;
+                margin: 0%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .footer-Conact-TEXT-DIV-S-E {
+                height: 20%;
+                width: 100%;
+                display: flex;
+                align-content: center;
+                justify-content: flex-start;
+                align-items: center;
+                align-self: center;
+            }
+            .footer-Conact-img-S-DIV-E{
+                height: 30px;
+                width: 30px;
+                border-radius: 150%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                background-color: white;
+                align-items: center;
+            }
+            .footer-Conact-img-SS-E{
+                height: 80%;
+            }
+
+            .footer-Conact-TEXT-SS-E{
+                color: white;
+                font-size: 0.66vw;
+                margin: 0%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            /* ****************footer hover**********************/
+            .footer-R-M-TEXT-DIV:hover .footer-R-M-TEXT {transform: scale(1.1);}
+            
+            .footer-R-S-TEXT-DIV:hover .footer-R-S-TEXT {transform: scale(1.1);}
+            
+
+
+
+
+
+
+
+
+            /* ****************footer phone**********************/
+
+
+            @media only screen and (max-width: 1000px) {
+
+
+                footer{
+                    height: 300px;
+                }
+                .footer-M-line{display: none;}
+
+                .footer-R{display: none;}
+
+                .footer-L{
+                    width: 100%;
+
+                }
+                .footer-Conact-TEXT-SS{
+                    font-size: 2.5vw;
+
+                }
+                .footer-Conact-TEXT-SS-E{
+                    font-size: 1.55vw;
+                }
+                .footer-L-M {
+                    height: 70%;
+                    width: 100%;
+                    position: relative;
+                    right: auto;
+                }
+                .footer-Conact-img-S-DIV{
+                    height: 30px;
+                    width: 30px;
+                }
+                .footer-Conact-img-S-DIV-E{
+                    width: 30px;
+                    height: 30px;
+                }
+                .footer-social-IMG{
+                    width: 40px;
+                    height: 40px;
+                }
+                .footer-Conact-TEXT-DIV{
+                    top: auto;
+                }
+                .footer-Conact-TEXT-DIV-S-S{
+                    width: 49%;
+                }
+                .footer-Conact-M-TEXT {
+                    margin: 0;
+                    font-size: 25px;
+                    color: white;
+                    font-family: 'Bebas Neue', cursive;
+                    position: relative;
+                    top: 7%;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            }
